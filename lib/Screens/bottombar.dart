@@ -112,59 +112,5 @@ class _MainButtomBarState extends State<MainButtomBar> {
       ),
       key: _scaffoldKey,
     );
-    // appBar: AppBar(
-    //     backgroundColor: Colors.white,
-    //     toolbarHeight: 45,
-    //     // elevation: 0.9,
-    //     centerTitle: true,
-    //     title: Text(
-    //       'News App',
-    //       style: TextStyle(
-    //           color: Colors.black87,
-    //           fontFamily: 'Nutino',
-    //           fontSize: 30,
-    //           fontWeight: FontWeight.bold),
-    //     ),
-    //     // iconTheme: IconThemeData(color: Colors.blue, size: 50),
-
-    //     actions: <Widget>[
-    //       IconButton(
-    //         icon: SvgPicture.asset(
-    //           'assets/icons/notification.svg',
-    //           width: 40,
-    //           color: Colors.black54,
-    //           height: 25,
-    //         ),
-    //         onPressed: () {
-    //           // do something
-    //         },
-    //       )
-    //     ],
-    //     leading: new IconButton(
-    //         icon: SvgPicture.asset(
-    //           'assets/icons/menu.svg',
-    //           width: 40,
-    //           color: Colors.black54,
-    //           height: 28,
-    //         ),
-    //         onPressed: () => _scaffoldKey.currentState.openDrawer())),
-
-    // ),
-    // drawer: Drawer(
-    //   child: MainDrawer(),
-    // ),
-
-    // );
   }
 }
-
-// class MainButtomBar extends StatefulWidget {
-//   MainButtomBar({Key key}) : super(key: key);
-
-//   @override
-//   _MainBottomBarState createState() => _BottomBarState();
-// }
-
-// class _BottomBarState extends State<MainBottomBar> {
-
-// }
